@@ -14,7 +14,7 @@ async function connectDB() {
         const opts = {
             bufferCommands: false,
     }
-    catched.Promise = mongoose.connect(`${process.env.MONGO_URI}/quickcart`, opts).then(mongoose => {
+    catched.Promise = mongoose.connect(`${process.env.MONGODB_URI}/quickcart`, opts).then(mongoose => {
         return mongoose
     })
     }
