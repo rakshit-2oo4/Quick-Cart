@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.38.2",
+    "axios": "^1.13.5",
+    "cloudinary": "^2.9.0",
     "inngest": "^3.52.3",
     "mongoose": "^9.2.2",
     "next": "15.2.8",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
-    "react-hot-toast": "^2.5.1"
+    "react-hot-toast": "^2.5.1",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
